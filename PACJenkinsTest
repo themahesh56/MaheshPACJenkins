@@ -5,6 +5,8 @@ stage('First JenkinsPAC'){
 steps{
 script{
 println "Welcome to PACJenkins"
+for i in (i=0;i<j;i++);
+println i
 }
 }
 }
