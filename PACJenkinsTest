@@ -1,0 +1,12 @@
+pipeline{
+agent any
+stages {
+stage('First JenkinsPAC'){
+steps{
+script{
+println "Welcome to PACJenkins"
+}
+}
+}
+}
+}
